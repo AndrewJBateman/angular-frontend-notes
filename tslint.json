@@ -21,6 +21,9 @@
       "app",
       "kebab-case"
     ],
+    "indent": {
+      "options": ["tabs", 2]
+    },
     "import-blacklist": [
       true,
       "rxjs/Rx"

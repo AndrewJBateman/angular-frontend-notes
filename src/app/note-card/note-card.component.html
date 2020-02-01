@@ -1,10 +1,16 @@
 <div #container class="note-card-container">
 
   <div class="note-card-content">
-		<h1 class="note-card-title">Example Title</h1>
+		<h1 class="note-card-title">{{ title }}</h1>
 
-		<div class="note-card-body">Example body text</div>
+		<div #bodyText class="note-card-body">
+			<p>{{ body }}</p>
+
+			<div #truncator class="fade-out-trancation"></div>
+		</div>
 
 	</div>
+
+	<div class="x-button"></div>
 
 </div>

@@ -1,27 +1,62 @@
-# AngularFrontendNotes
+# Angular Frontend Notes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
+Angular 8 tutorial app to allow user to enter notes and to list these notes in cards.
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
-## Code scaffolding
+## General info
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* 7 part Youtube tutorial series.
 
-## Build
+## Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+![Angular page](./img/pc.png)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies
 
-## Running end-to-end tests
+* [Angular v8.2.14](https://angular.io/)
+* [Bulma v0.8.0](https://bulma.io/documentation/) framework
+* [Font Awesome v5.12.0](https://fontawesome.com/) icons
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Setup
 
-## Further help
+* To start the server on _localhost://8100_ type: 'ng serve'
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Code Examples
+
+* 
+
+```typescript
+
+```
+
+## Features
+
+* Bulma
+
+## Status & To-do list
+
+* Status: Video 2 of 7 completed - frontend only so far. Backend to be added later.
+
+* To-do: complete tutorial.
+
+## Inspiration
+
+* [Project Demo & Introduction - [1] Build a Notes App w/ Angular](https://www.youtube.com/watch?v=dlXEeOk-MrI&t=7s)
+* [Creating the UI (Angular) - [2] Build a Notes App w/ Angular](https://www.youtube.com/watch?v=akUcKvEsG8w)
+* [Creating the Note Details Page - [3] Build a Notes App w/ Angular](https://www.youtube.com/watch?v=Rghqrp59XJA)
+* [Devstackr: Github repo](https://github.com/Devstackr/basic-notes-app-mean-stack)
+
+## Contact
+
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!

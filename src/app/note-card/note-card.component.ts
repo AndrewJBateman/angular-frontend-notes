@@ -9,6 +9,9 @@ export class NoteCardComponent implements OnInit {
 
   @Input() title: string;
   @Input() body: string;
+  @Input() link: string;
+
+  @Output('delete') deleteEvent: EventEmitter<void> = new EventEmitter<void>();
 
   @ViewChild('truncator', {static: false}) truncator: ElementRef<HTMLElement>;
   @ViewChild('bodyText', {static: false}) bodyText: ElementRef<HTMLElement>;
@@ -27,6 +30,10 @@ export class NoteCardComponent implements OnInit {
       // if this is no text overflow, dont show the fade out truncator
       this.renderer.setStyle(this.truncator.nativeElement, 'display', 'none');
     }
+  }
+
+  onXButtonClick() {
+    this.deleteEvent.emit();
   }
 
 }

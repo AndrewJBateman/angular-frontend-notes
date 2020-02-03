@@ -15,6 +15,9 @@ const routes: Routes = [
         path: '', component: NotesListComponent
       },
       {
+        path: 'new', component: NoteDetailsComponent
+      },
+      {
         path: ':id', component: NoteDetailsComponent
       }
     ]

@@ -1,6 +1,8 @@
 # Angular Frontend Notes
 
-Angular 8 tutorial app to allow user to enter notes and to list these notes in cards.
+* Angular 8 tutorial app to allow user to add notes to a notes list. Notes can be viewed and deleted from this list.
+
+* Clicking on a note navigates to that note where the note can be edited.
 
 ## Table of contents
 
@@ -19,14 +21,15 @@ Angular 8 tutorial app to allow user to enter notes and to list these notes in c
 
 ## Screenshots
 
-![Angular page](./img/pc.png)
+![Angular page](./img/list.png)
 
 
 ## Technologies
 
 * [Angular v8.2.14](https://angular.io/)
-* [Bulma v0.8.0](https://bulma.io/documentation/) framework
+* [Bulma v0.8.0](https://bulma.io/documentation/) CSS framework
 * [Font Awesome v5.12.0](https://fontawesome.com/) icons
+* [rxjs v6.4.0](https://angular.io/guide/rx-library) reactive programming library
 
 ## Setup
 
@@ -46,15 +49,16 @@ Angular 8 tutorial app to allow user to enter notes and to list these notes in c
 
 ## Status & To-do list
 
-* Status: Video 2 of 7 completed - frontend only so far. Backend to be added later.
+* Status: Video 3 of 7 completed - frontend only so far. Backend to be added later.
 
-* To-do: complete tutorial.
+* To-do: Fix `issue with TypeError: Cannot read property 'nativeElement' of undefined`. complete tutorial.
 
 ## Inspiration
 
 * [Project Demo & Introduction - [1] Build a Notes App w/ Angular](https://www.youtube.com/watch?v=dlXEeOk-MrI&t=7s)
 * [Creating the UI (Angular) - [2] Build a Notes App w/ Angular](https://www.youtube.com/watch?v=akUcKvEsG8w)
 * [Creating the Note Details Page - [3] Build a Notes App w/ Angular](https://www.youtube.com/watch?v=Rghqrp59XJA)
+* [Adding Animations to Note Cards | Angular Animations - [4] Build a Notes App w/ Angular](https://www.youtube.com/watch?v=0DnL5awucWE)
 * [Devstackr: Github repo](https://github.com/Devstackr/basic-notes-app-mean-stack)
 
 ## Contact

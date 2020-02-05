@@ -22,7 +22,6 @@ export class NoteDetailsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-
     // new note or editing existing one?
     this.route.params.subscribe((params: Params) => {
       this.note = new Note();
@@ -34,7 +33,6 @@ export class NoteDetailsComponent implements OnInit {
         this.new = true;
       }
     })
-
   }
 
   onSubmit(form: NgForm) {
@@ -45,7 +43,6 @@ export class NoteDetailsComponent implements OnInit {
       this.notesService.update(this.noteId, form.value.title, form.value.body);
     }
     this.router.navigateByUrl('/');
-
   }
 
   cancel() {

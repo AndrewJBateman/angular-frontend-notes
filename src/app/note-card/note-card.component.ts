@@ -19,7 +19,7 @@ export class NoteCardComponent implements OnInit {
   constructor(private renderer: Renderer2) { }
 
   ngOnInit() {
-    // work  out if there is a text overflow then if not hide the truncator
+    // work out if there is a text overflow then if not hide the truncator
     // let style = window.getComputedStyle(this.bodyText.nativeElement, null);
     // let viewableHeight = parseInt(style.getPropertyValue("height"), 10);
 
@@ -27,7 +27,7 @@ export class NoteCardComponent implements OnInit {
     //   // if this is a text overflow, show the fade out truncator
     //   this.renderer.setStyle(this.truncator.nativeElement, 'display', 'block');
     // } else {
-    //   // if this is no text overflow, dont show the fade out truncator
+    //   // if this is no text overflow, don't show the fade out truncator
     //   this.renderer.setStyle(this.truncator.nativeElement, 'display', 'none');
     // }
   }

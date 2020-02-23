@@ -1,6 +1,6 @@
 # Angular Frontend Notes
 
-* Angular 8 tutorial app to allow user to add notes to a notes list. Notes can be viewed and deleted from this list. Includes a filter so user can search for key words and filtered results will order themselves in terms of relevancy.
+* Angular tutorial app to allow user to add notes to a notes list. Notes can be viewed and deleted from this list. Includes a filter so user can search for key words and filtered results will order themselves in terms of relevancy.
 
 * Clicking on a note navigates to that note where the note can be edited.
 
@@ -19,7 +19,7 @@
 
 ## General info
 
-* 5 part Youtube tutorial series. 
+* 5 part Youtube tutorial series in Angular 8. Upgraded to Angular 9.
 
 ## Screenshots
 
@@ -28,10 +28,10 @@
 
 ## Technologies
 
-* [Angular v8.2.14](https://angular.io/)
+* [Angular v9.1.0](https://angular.io/)
 * [Bulma v0.8.0](https://bulma.io/documentation/) CSS framework
 * [Font Awesome v5.12.0](https://fontawesome.com/) icons
-* [rxjs v6.4.0](https://angular.io/guide/rx-library) reactive programming library
+* [rxjs v6.5.4](https://angular.io/guide/rx-library) reactive programming library
 
 ## Setup
 
@@ -63,9 +63,9 @@ ngOnInit() {
 
 ## Status & To-do list
 
-* Status: Video 5 of 5 completed - frontend only so far. Backend to be added later.
+* Status: Video 5 of 5 completed.
 
-* To-do: Fix `issue with TypeError: Cannot read property 'nativeElement' of undefined`. complete tutorial.
+* To-do: Nothing. Could add local storage or a backend (e.g. google Firebase).
 
 ## Inspiration
 

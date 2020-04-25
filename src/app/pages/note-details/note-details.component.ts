@@ -1,16 +1,15 @@
-import { Component, OnInit } from '@angular/core';
-import { NgForm } from '@angular/forms';
-import { Note } from 'src/app/shared/note.model';
-import { NotesService } from 'src/app/shared/notes.service';
-import { Router, ActivatedRoute, Params } from '@angular/router';
+import { Component, OnInit } from "@angular/core";
+import { NgForm } from "@angular/forms";
+import { Note } from "src/app/shared/note.model";
+import { NotesService } from "src/app/shared/notes.service";
+import { Router, ActivatedRoute, Params } from "@angular/router";
 
 @Component({
-  selector: 'app-note-details',
-  templateUrl: './note-details.component.html',
-  styleUrls: ['./note-details.component.scss']
+  selector: "app-note-details",
+  templateUrl: "./note-details.component.html",
+  styleUrls: ["./note-details.component.scss"],
 })
 export class NoteDetailsComponent implements OnInit {
-
   note: Note;
   noteId: number;
   new: boolean;
@@ -19,7 +18,7 @@ export class NoteDetailsComponent implements OnInit {
     private notesService: NotesService,
     private router: Router,
     private route: ActivatedRoute
-  ) { }
+  ) {}
 
   ngOnInit() {
     // new note or editing existing one?
@@ -32,7 +31,7 @@ export class NoteDetailsComponent implements OnInit {
       } else {
         this.new = true;
       }
-    })
+    });
   }
 
   onSubmit(form: NgForm) {
@@ -42,10 +41,10 @@ export class NoteDetailsComponent implements OnInit {
     } else {
       this.notesService.update(this.noteId, form.value.title, form.value.body);
     }
-    this.router.navigateByUrl('/');
+    this.router.navigateByUrl("/");
   }
 
   cancel() {
-    this.router.navigateByUrl('/');
+    this.router.navigateByUrl("/");
   }
 }

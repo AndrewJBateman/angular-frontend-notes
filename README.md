@@ -1,43 +1,43 @@
-# Angular Frontend Notes
+# :zap: Angular Frontend Notes
 
 * Angular tutorial app to allow user to add notes to a notes list. Notes can be viewed and deleted from this list. Includes a filter so user can search for key words and filtered results will order themselves in terms of relevancy.
-
-* Clicking on a note navigates to that note where the note can be edited.
-
+* Clicking on a note navigates to that note where it can be edited.
 * All code by [Devstackr](https://www.youtube.com/channel/UCbwsS1m4Hib6R-9F1alus_A/featured) from Youtube [tutorial series]([Project Demo & Introduction - [1] Build a Notes App w/ Angular](https://www.youtube.com/watch?v=dlXEeOk-MrI&t=7s)).
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Angular Frontend Notes](#zap-angular-frontend-notes)
+  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signalstrength-technologies)
+  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
 * 5 part Youtube tutorial series in Angular 8. Upgraded to Angular 9.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Angular page](./img/list.png)
 
+## :signal_strength: Technologies
 
-## Technologies
+* [Angular v9](https://angular.io/)
+* [Bulma v0.8.2](https://bulma.io/documentation/) CSS framework
+* [Font Awesome v5](https://fontawesome.com/) icons
+* [rxjs v6](https://angular.io/guide/rx-library) reactive programming library
 
-* [Angular v9.1.0](https://angular.io/)
-* [Bulma v0.8.0](https://bulma.io/documentation/) CSS framework
-* [Font Awesome v5.12.0](https://fontawesome.com/) icons
-* [rxjs v6.5.4](https://angular.io/guide/rx-library) reactive programming library
-
-## Setup
+## :floppy_disk: Setup
 
 * To start the server on _localhost://4200_ type: 'ng serve'
 
-## Code Examples
+## :computer: Code Examples
 
 * on initialisation of `note-details.component.ts` check if note is new
 
@@ -57,17 +57,16 @@ ngOnInit() {
 }
 ```
 
-## Features
+## :cool: Features
 
 * Bulma CSS styles used for the first time.
 
-## Status & To-do list
+## :clipboard: Status & To-do list
 
-* Status: Video 5 of 5 completed.
-
+* Status: App complete and working.
 * To-do: Nothing. Could add local storage or a backend (e.g. google Firebase).
 
-## Inspiration
+## :clap: Inspiration
 
 * [Project Demo & Introduction - [1] Build a Notes App w/ Angular](https://www.youtube.com/watch?v=dlXEeOk-MrI&t=7s)
 * [Creating the UI (Angular) - [2] Build a Notes App w/ Angular](https://www.youtube.com/watch?v=akUcKvEsG8w)
@@ -78,6 +77,6 @@ ngOnInit() {
 * [Devstackr: Github repo](https://github.com/Devstackr/basic-notes-app-mean-stack)
 * [Maya Shavin: Medium article: ES6 — Set vs Array — What and when?](https://medium.com/front-end-weekly/es6-set-vs-array-what-and-when-efc055655e1a)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)

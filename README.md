@@ -7,11 +7,11 @@
 ## :page_facing_up: Table of contents
 
 * [:zap: Angular Frontend Notes](#zap-angular-frontend-notes)
-  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signalstrength-technologies)
-  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
@@ -28,14 +28,15 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v9](https://angular.io/)
-* [Bulma v0.8.2](https://bulma.io/documentation/) CSS framework
+* [Angular v10](https://angular.io/)
+* [Bulma v0.9](https://bulma.io/documentation/) CSS framework
 * [Font Awesome v5](https://fontawesome.com/) icons
 * [rxjs v6](https://angular.io/guide/rx-library) reactive programming library
 
 ## :floppy_disk: Setup
 
 * To start the server on _localhost://4200_ type: 'ng serve'
+* To create a build file type `ng build --prod`
 
 ## :computer: Code Examples
 

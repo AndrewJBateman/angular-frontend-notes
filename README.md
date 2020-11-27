@@ -43,7 +43,7 @@
 
 * Run `npm i` to install dependencies
 * To start the server on _localhost://4200_ type: 'ng serve'
-* To create a build file type `ng build --prod`
+* To create a build file in a `docs` folder type `ng build --prod`. This will deployed in github-pages when code is commited and pushed to Github
 
 ## :computer: Code Examples
 

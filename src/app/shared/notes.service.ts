@@ -1,16 +1,16 @@
-import { Injectable } from '@angular/core';
-import { Note } from './note.model';
+import { Injectable } from "@angular/core";
+import { Note } from "./note.model";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class NotesService {
-
   notes: Note[] = new Array<Note>();
 
-  constructor() { }
+  constructor() {}
 
   getAll() {
+    console.log("this notes list: ", this.notes);
     return this.notes;
   }
 
@@ -24,15 +24,15 @@ export class NotesService {
 
   add(note: Note) {
     // add note to Notes array & return id where id = the index in the array
-    let newLength = this.notes.push(note);
-    let index = newLength - 1;
+    const newLength = this.notes.push(note);
+    const index = newLength - 1;
     return index;
   }
 
   update(id: number, title: string, body: string) {
-    let note = this.notes[id];
+    const note = this.notes[id];
     note.title = title;
-    note.body  = body;
+    note.body = body;
   }
 
   delete(id: number) {

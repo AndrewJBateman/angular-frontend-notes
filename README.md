@@ -1,8 +1,8 @@
 # :zap: Angular Frontend Notes
 
-* Angular tutorial app to allow user to add notes to a notes list. Notes can be viewed and deleted from this list. Includes a filter so user can search for key words and filtered results will order themselves in terms of relevancy.
+* Angular app to allow a user to Create, Read, Update & Delete (CRUD) simple notes comprising a title and description.
 * Clicking on a note navigates to that note where it can be edited.
-* All code by [Devstackr](https://www.youtube.com/channel/UCbwsS1m4Hib6R-9F1alus_A/featured) from Youtube [tutorial series]([Project Demo & Introduction - [1] Build a Notes App w/ Angular](https://www.youtube.com/watch?v=dlXEeOk-MrI&t=7s)).
+* Tutorial code by [Devstackr](https://www.youtube.com/channel/UCbwsS1m4Hib6R-9F1alus_A/featured) - see [:clap: Inspiration](#clap-inspiration) below. Note some changes were required to pass tslint tests
 
 ## :page_facing_up: Table of contents
 
@@ -20,7 +20,13 @@
 
 ## :books: General info
 
-* 5 part Youtube tutorial series in Angular 8. Upgraded to Angular 9.
+* Notes can be viewed and deleted from the notes list.
+* Clicking on a note lets user edit it.
+* Fade-out gradient used with text to keep note cards all the same size.
+* List includes a filter so user can search for key words and filtered results will order themselves in terms of relevancy.
+* There is no backend for this app. A refresh loses all notes from the notes array.
+* [Bulma](https://bulma.io/documentation/) CSS framework used to style components etc.
+* 5 part Youtube tutorial series in Angular 8. Upgraded to Angular 11.
 
 ## :camera: Screenshots
 
@@ -28,19 +34,20 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v10](https://angular.io/)
-* [Bulma v0.9](https://bulma.io/documentation/) CSS framework
+* [Angular v11](https://angular.io/)
+* [Bulma v0.9.1](https://bulma.io/documentation/) CSS framework
 * [Font Awesome v5](https://fontawesome.com/) icons
 * [rxjs v6](https://angular.io/guide/rx-library) reactive programming library
 
 ## :floppy_disk: Setup
 
+* Run `npm i` to install dependencies
 * To start the server on _localhost://4200_ type: 'ng serve'
 * To create a build file type `ng build --prod`
 
 ## :computer: Code Examples
 
-* on initialisation of `note-details.component.ts` check if note is new
+* on initialisation of `note-details.component.ts` check if note is new using the note id.
 
 ```typescript
 ngOnInit() {
@@ -64,7 +71,7 @@ ngOnInit() {
 
 ## :clipboard: Status & To-do list
 
-* Status: App complete and working.
+* Status: Working. Passes lint test.
 * To-do: Nothing. Could add local storage or a backend (e.g. google Firebase).
 
 ## :clap: Inspiration

@@ -19,12 +19,12 @@ export class NoteCardComponent implements OnInit {
   @Input() body: string;
   @Input() link: string;
 
-  @Output("delete") deleteEvent: EventEmitter<void> = new EventEmitter<void>();
+  @Output() deleteEvent: EventEmitter<void> = new EventEmitter<void>();
 
   @ViewChild("truncator") truncator: ElementRef<HTMLElement>;
   @ViewChild("bodyText") bodyText: ElementRef<HTMLElement>;
 
-  constructor(private renderer: Renderer2) {}
+  constructor() {}
 
   ngOnInit() {
     // work out if there is a text overflow then if not hide the truncator

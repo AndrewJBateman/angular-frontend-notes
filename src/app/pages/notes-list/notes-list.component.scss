@@ -1,10 +1,10 @@
-@import '../../../main-styles.scss';
+@import "../../../main-styles.scss";
 
 .main-container {
   display: flex;
   flex-direction: column;
   max-width: 500px;
-	margin: auto;
+  margin: auto;
   padding-top: 50px;
 }
 
@@ -14,8 +14,8 @@
 }
 
 app-note-card {
-	display: block;
-	margin-bottom: 25px;
+  display: block;
+  margin-bottom: 25px;
 }
 
 .floating-add-button {
